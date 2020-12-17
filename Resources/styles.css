@@ -112,7 +112,7 @@ hr {
 #infoContainer {
     width: 249px;
     height: 40px;
-    margin: 24px 54px 24px 47px;
+    margin: 2px 54px 24px 47px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
