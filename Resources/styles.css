@@ -1,0 +1,115 @@
+:root{
+    --lightColor: rgba(107, 112, 130, 1);
+}
+body {
+    background-color: #19A1AE;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cardContainer {
+    height: 374px;
+    width: 350px;
+    /* border: 1px solid black; */
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+}
+
+.topRect {
+    width: 350px;
+    height: 149px;
+    background-image: url(./images/bg-pattern-card.svg) ;
+    
+}
+
+img {
+    width: 96px;
+    height: 96px;
+    border: 5px solid #FFFFFF;
+    border-radius: 50%;
+    margin-left: 127px;
+    margin-top: -53px;
+}
+
+#nameAge {
+    width: 135px;
+    height: 23px;
+    margin-top: 12px;
+    margin-left: 108px;
+    
+}
+
+.inline {
+    display: inline;
+    text-align: center;
+}
+
+#name{
+    
+    width: 104px;
+    height: 18px;
+}
+ 
+#age{
+    margin-left: 5px;
+    margin-top: 2px;
+    color: var(--lightColor);
+    width: 22px;
+    height: 18px;
+}
+
+.boldText{
+    font-family: 'Kumbh sans';
+    font-weight: 700;
+    font-size: 18px;
+    color: rgba(46, 51, 73, 1);
+}
+
+.lightText {
+    font-family: 'Kumbh sans';
+    font-weight: 400;
+}
+
+#location{
+    margin-left: 150px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: var(--lightColor);
+}
+
+hr {
+    margin-top: 28px;
+    height: 1px;
+    background-color: #E8E9EC; 
+}
+
+#infoContainer {
+    width: 249px;
+    height: 40px;
+    margin: 24px 54px 24px 47px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.infoBig{
+    display: block;
+    text-align: center;
+    width: 35px;
+    height: 18px;
+    margin-bottom: 9px;
+    margin-left: 12px;
+}
+
+.infoSmall{
+    font-size: 10px;
+    display: block;
+    text-align: center;
+    width: 56px;
+    height: 10px;
+    margin-left: 1.5px;
+}
+
