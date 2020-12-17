@@ -7,7 +7,28 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    position:relative;
+    z-index: 1;
 }
+
+#topCircle img{
+    position: absolute;
+    z-index: 2;
+    width: 978px;
+    height: 978px;
+    margin-top: -975px;
+    margin-left: -775px;
+    transform: rotate(-135deg);
+}
+
+#botCircle img{
+    position: absolute;
+    z-index: 2;
+    width: 978px;
+    height: 978px;
+    margin: 50px 0px;
+}
+
 
 #cardContainer {
     height: 374px;
@@ -16,6 +37,8 @@ body {
     border-radius: 15px;
     overflow: hidden;
     background-color: #FFFFFF;
+    position:relative;
+    z-index: 3;
 }
 
 .topRect {
@@ -25,7 +48,7 @@ body {
     
 }
 
-img {
+#profile {
     width: 96px;
     height: 96px;
     border: 5px solid #FFFFFF;
@@ -118,7 +141,7 @@ hr {
         width: 325px;
     }
 
-    img{
+    #profile{
         margin-left: 114.5px;
     }
 
