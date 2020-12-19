@@ -107,6 +107,7 @@ hr {
     margin-top: 28px;
     height: 1px;
     background-color: #E8E9EC; 
+    border: none;
 }
 
 #infoContainer {
